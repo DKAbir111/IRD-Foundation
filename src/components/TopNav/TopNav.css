@@ -1,0 +1,68 @@
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  color: black;
+  padding: 10px;
+}
+
+.homeImg {
+  width: 50px;
+}
+
+.search-input {
+  padding: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.topLeft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.topRight {
+  display: flex;
+  gap: 30px;
+}
+
+.settings-icon {
+  font-size: 24px;
+  cursor: pointer;
+  background-color: #2A9E76;
+  padding: 7px;
+  border-radius: 7px;
+  color: white;
+}
+
+.search-icon {
+
+  font-size: 16px;
+  color: #ccc;
+  display: none;
+
+}
+
+@media (max-width: 830px) {
+  .top-nav h1 {
+    font-size: 1.2em;
+  }
+
+  .top-nav p {
+    display: none;
+  }
+
+  .search-input {
+    display: none;
+  }
+
+  .search-icon {
+    display: block;
+    font-size: 24px;
+    color: grey;
+    cursor: pointer;
+  }
+}

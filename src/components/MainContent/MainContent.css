@@ -1,0 +1,38 @@
+/* MainContent.css */
+.main-content {
+  flex: 1;
+  margin: 15px;
+  border-radius: 15px;
+  overflow-y: scroll;
+  height: 710px;
+  scroll-behavior: smooth;
+}
+.card{
+  background-color: white;
+  padding: 10px;
+  border-radius: 15px;
+
+  margin-bottom: 15px;
+}
+.main-content h2 {
+  color: #4CAF50;
+}
+
+.main-content h3 {
+  color: #388E3C;
+}
+
+.main-content p {
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 40px;
+  color: #d9dfe3;
+  cursor: pointer;
+
+  justify-content: center;
+}
